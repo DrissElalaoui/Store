@@ -1,0 +1,121 @@
+
+
+:root {
+    --firstColor: #261FB3;
+}
+.homePage {
+    max-width: 1240px;
+    margin: auto;
+    /* background-color: #F5F5F5; */
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.homePage .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.homePage .header h1 {
+    color: var(--firstColor);
+}
+.homePage .header ul {
+    display: flex;
+}
+.homePage .header ul li {
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.homePage .header ul li a {
+    color: #000;
+}
+.homePage .header ul li a:hover {
+    color: var(--firstColor);
+}
+.homePage .header .headerRight {
+    display: flex;
+    align-items: center;
+}
+.homePage .header .headerRight .iconPohne {
+    margin-right: 10px;
+    background-color: var(--firstColor);
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homePage .header .headerRight {
+    font-size: 14px;
+}
+.homePage .header .headerRight i {
+    font-size: 25px;
+}
+
+.homePage .header .headerRight b {
+    margin-right: 5px;
+}
+
+/* ---------------------- header center ------------------------- */
+
+.homePage .headerCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--firstColor);
+    padding: 10px 5px;
+}
+.homePage .headerCenter button {
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: rgb(1, 1, 138);
+    color: #FFF;
+}
+.homePage .headerCenter button i {
+    margin-right: 5px;
+}
+.homePage .headerCenter .search {
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+.homePage .headerCenter .iconCenter {
+    display: flex;
+}
+.homePage .headerCenter .iconCenter div {
+    width: 40px;
+    height: 40px;
+    background-color: #EEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.homePage .headerCenter .iconCenter div i {
+    font-size: 16px;
+}
+/* ------------------------ section ------------------------------- */
+.homePage .section {
+    margin-top: 50px;
+}
+
+/* ------------------------------ HommePageSlider -------------------------- */
+.homePage .section .slider {
+            width: 900px;
+            height: 300px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+}

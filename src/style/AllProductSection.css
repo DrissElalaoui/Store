@@ -1,0 +1,10 @@
+.btnSlider {
+    display: none;
+}
+.sectionScroll:hover .btnSlider {
+    display: block;
+} 
+.sectionScroll:hover {
+    border: 1px solid #261FB3;
+
+}
